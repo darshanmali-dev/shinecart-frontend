@@ -1,0 +1,15 @@
+/* Move logo up on small screens (550px or less) */
+@media (max-width: 490px) {
+    .small-screen {
+        height: 2.5rem !important;
+        /* Smaller logo */
+        margin-top: 0.5rem !important;
+
+        display: flex !important;
+        justify-content: center;
+        /* Move up */
+    }
+    .normal-screen {
+        display: none !important;
+    }
+}

@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ShineCart jewellery E-Commerce Design System */
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --background: 0 0% 99%;
+    --foreground: 215 25% 15%;
+
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+    --card-elevated: 0 0% 100%;
+
+    /* Popover System */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Premium Gold Theme */
+    --primary: 48 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 48 90% 65%;
+    --primary-dark: 45 100% 40%;
+
+    /* Luxury Accents */
+    --luxury: 45 85% 35%;
+    --luxury-foreground: 0 0% 100%;
+    --luxury-light: 48 90% 70%;
+
+    /* Secondary Tones */
+    --secondary: 215 15% 95%;
+    --secondary-foreground: 215 25% 15%;
+    --secondary-dark: 215 20% 85%;
+
+    /* Muted Elements */
+    --muted: 215 15% 96%;
+    --muted-foreground: 215 15% 45%;
+    --muted-dark: 215 15% 85%;
+
+    /* Accent Colors */
+    --accent: 48 95% 95%;
+    --accent-foreground: 215 25% 15%;
+
+    /* Status Colors */
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 142 70% 45%;
+    --success-foreground: 0 0% 100%;
+    --warning: 38 95% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Border & Input */
+    --border: 215 15% 92%;
+    --input: 215 15% 92%;
+    --ring: 48 100% 50%;
+
+    /* Premium Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(48 100% 50%) 0%, hsl(45 85% 35%) 100%);
+    --gradient-luxury: linear-gradient(135deg, hsl(45 85% 35%) 0%, hsl(215 25% 15%) 100%);
+    --gradient-subtle: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(215 15% 98%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(215 25% 15%) 0%, hsl(215 35% 25%) 50%, hsl(48 100% 50%) 100%);
+
+    /* Shadows */
+    --shadow-elegant: 0 4px 25px -5px hsl(215 25% 15% / 0.1);
+    --shadow-luxury: 0 8px 35px -8px hsl(48 100% 50% / 0.2);
+    --shadow-card: 0 2px 15px -3px hsl(215 25% 15% / 0.08);
+    --shadow-floating: 0 12px 40px -10px hsl(215 25% 15% / 0.15);
+
+    /* Typography Scale */
+    --font-luxury: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing & Layout */
+    --radius: 12px;
+    --radius-luxury: 16px;
+    --container-padding: 1.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode luxury theme */
+    --background: 215 25% 8%;
+    --foreground: 0 0% 95%;
+    --card: 215 25% 10%;
+    --card-foreground: 0 0% 95%;
+    --card-elevated: 215 25% 12%;
+    --popover: 215 25% 10%;
+    --popover-foreground: 0 0% 95%;
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 0 0% 95%;
+    --secondary-dark: 215 20% 12%;
+    --muted: 215 20% 15%;
+    --muted-foreground: 215 15% 65%;
+    --muted-dark: 215 20% 12%;
+    --accent: 48 95% 15%;
+    --accent-foreground: 0 0% 95%;
+    --border: 215 20% 18%;
+    --input: 215 20% 18%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-luxury);
+    @apply font-medium tracking-tight;
+  }
+}
+
+@layer components {
+  /* Premium Button Variants */
+  .btn-luxury {
+    @apply bg-gradient-to-r from-primary to-luxury text-luxury-foreground hover:shadow-luxury transition-all duration-300 transform hover:scale-105;
+  }
+
+  .btn-elegant {
+    @apply bg-card border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-elegant transition-all duration-300;
+  }
+
+  /* Card Variants */
+  .card-elevated {
+    @apply bg-card-elevated shadow-card hover:shadow-elegant transition-shadow duration-300;
+  }
+
+  .card-luxury {
+    @apply bg-gradient-subtle border border-border shadow-luxury hover:shadow-floating transition-all duration-300;
+  }
+
+  .card-product {
+    @apply bg-card rounded-luxury overflow-hidden shadow-card hover:shadow-elegant transition-all duration-300;
+  }
+
+  /* Gradient Backgrounds */
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .bg-gradient-luxury {
+    background: var(--gradient-luxury);
+  }
+
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .bg-gradient-subtle {
+    background: var(--gradient-subtle);
+  }
+
+  /* Typography Utilities */
+  .font-luxury {
+    font-family: var(--font-luxury);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  /* Shadow Utilities */
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  .shadow-luxury {
+    box-shadow: var(--shadow-luxury);
+  }
+
+  .shadow-floating {
+    box-shadow: var(--shadow-floating);
+  }
+
+  /* Animation Utilities */
+  .animate-fade-in {
+    @apply animate-in fade-in-0 duration-500;
+  }
+
+  .animate-slide-up {
+    @apply animate-in slide-in-from-bottom-4 duration-500;
+  }
+
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-elegant;
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-200 hover:scale-105;
+  }
+
+  /* Container Utilities */
+  .container-padding {
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+  }
+}
+
+
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+}
+
+

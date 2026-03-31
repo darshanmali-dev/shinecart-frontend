@@ -1,0 +1,676 @@
+
+
+2. {
+  "name": "Rose Gold Floral Ring",
+  "sku": "RG-002",
+  "price": 34999,
+  "originalPrice": 39999,
+  "discount": 13,
+  "category": "Rings",
+  "metal": "Rose Gold",
+  "stone": "Ruby",
+  "stockQuantity": 22,
+  "availability": "In Stock",
+  "sizes": "5,6,7,8",
+  "badge": "New Arrival",
+  "description": "Delicate rose gold ring with ruby floral design. Modern elegance meets traditional craftsmanship.",
+  "features": ["BIS Hallmarked", "18K Rose Gold", "Natural Ruby Stones", "Handcrafted"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Ruby Weight", "value": "0.5 ct"},
+    {"label": "Width", "value": "5mm"},
+    {"label": "Weight", "value": "3.2g"}
+  ]
+}
+
+3. {
+  "name": "Classic Gold Band Ring",
+  "sku": "GR-003",
+  "price": 24999,
+  "originalPrice": 24999,
+  "discount": 0,
+  "category": "Rings",
+  "metal": "Gold",
+  "stone": "None",
+  "stockQuantity": 35,
+  "availability": "In Stock",
+  "sizes": "4,5,6,7,8,9,10",
+  "badge": "",
+  "description": "Timeless 22K gold band ring. Simple, elegant, and perfect for daily wear.",
+  "features": ["BIS Hallmarked", "22K Gold", "Lifetime Exchange", "Free Engraving"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "22K"},
+    {"label": "Width", "value": "4mm"},
+    {"label": "Weight", "value": "4.5g"},
+    {"label": "Finish", "value": "Polished"}
+  ]
+}
+
+4. {
+  "name": "Sapphire Halo Ring",
+  "sku": "SR-004",
+  "price": 67500,
+  "originalPrice": 75000,
+  "discount": 10,
+  "category": "Rings",
+  "metal": "White Gold",
+  "stone": "Sapphire",
+  "stockQuantity": 8,
+  "availability": "In Stock",
+  "sizes": "5,6,7,8",
+  "badge": "Limited Edition",
+  "description": "Brilliant blue sapphire surrounded by diamond halo in white gold setting.",
+  "features": ["IGI Certified", "18K White Gold", "Natural Sapphire", "Diamond Halo"],
+  "specifications": [
+    {"label": "Sapphire Weight", "value": "1.5 ct"},
+    {"label": "Diamond Weight", "value": "0.3 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Setting", "value": "Prong"}
+  ]
+}
+
+5. {
+  "name": "Vintage Emerald Ring",
+  "sku": "ER-005",
+  "price": 54999,
+  "originalPrice": 64999,
+  "discount": 15,
+  "category": "Rings",
+  "metal": "Gold",
+  "stone": "Emerald",
+  "stockQuantity": 12,
+  "availability": "In Stock",
+  "sizes": "6,7,8",
+  "badge": "Sale",
+  "description": "Vintage-inspired emerald ring with intricate gold detailing.",
+  "features": ["Natural Colombian Emerald", "18K Gold", "Antique Finish", "Certificate Included"],
+  "specifications": [
+    {"label": "Emerald Weight", "value": "1.2 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Origin", "value": "Colombia"},
+    {"label": "Treatment", "value": "Oil Treatment"}
+  ]
+}
+
+6. {
+  "name": "Silver Moonstone Ring",
+  "sku": "SR-006",
+  "price": 8999,
+  "originalPrice": 8999,
+  "discount": 0,
+  "category": "Rings",
+  "metal": "Silver",
+  "stone": "Opal",
+  "stockQuantity": 45,
+  "availability": "In Stock",
+  "sizes": "5,6,7,8,9",
+  "badge": "Trending",
+  "description": "Beautiful moonstone ring in 925 sterling silver. Perfect everyday accessory.",
+  "features": ["925 Sterling Silver", "Natural Moonstone", "Oxidized Finish", "Adjustable Size"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Stone Size", "value": "8x10mm"},
+    {"label": "Weight", "value": "3.8g"},
+    {"label": "Style", "value": "Bohemian"}
+  ]
+}
+
+7. {
+  "name": "Pearl Cluster Ring",
+  "sku": "PR-007",
+  "price": 18500,
+  "originalPrice": 22000,
+  "discount": 16,
+  "category": "Rings",
+  "metal": "Gold",
+  "stone": "Pearl",
+  "stockQuantity": 18,
+  "availability": "In Stock",
+  "sizes": "6,7,8",
+  "badge": "",
+  "description": "Elegant cluster of freshwater pearls set in yellow gold.",
+  "features": ["18K Yellow Gold", "AAA Pearls", "Handset Stones", "Unique Design"],
+  "specifications": [
+    {"label": "Pearl Size", "value": "5-6mm"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Pearl Type", "value": "Freshwater"},
+    {"label": "Weight", "value": "4.2g"}
+  ]
+}
+
+8. {
+  "name": "Minimalist Titanium Band",
+  "sku": "TR-008",
+  "price": 5999,
+  "originalPrice": 5999,
+  "discount": 0,
+  "category": "Rings",
+  "metal": "Titanium",
+  "stone": "None",
+  "stockQuantity": 60,
+  "availability": "In Stock",
+  "sizes": "6,7,8,9,10,11",
+  "badge": "",
+  "description": "Modern minimalist titanium band. Lightweight, durable, hypoallergenic.",
+  "features": ["Grade 5 Titanium", "Hypoallergenic", "Scratch Resistant", "Lifetime Warranty"],
+  "specifications": [
+    {"label": "Material", "value": "Grade 5 Titanium"},
+    {"label": "Width", "value": "6mm"},
+    {"label": "Weight", "value": "2.1g"},
+    {"label": "Finish", "value": "Brushed"}
+  ]
+}
+
+Neclackes
+9. {
+  "name": "Diamond Tennis Necklace",
+  "sku": "DN-009",
+  "price": 245000,
+  "originalPrice": 275000,
+  "discount": 11,
+  "category": "Necklaces",
+  "metal": "White Gold",
+  "stone": "Diamond",
+  "stockQuantity": 3,
+  "availability": "In Stock",
+  "sizes": "16,18",
+  "badge": "Exclusive",
+  "description": "Luxurious diamond tennis necklace with 5 carats of brilliant-cut diamonds.",
+  "features": ["IGI Certified Diamonds", "18K White Gold", "150 Diamonds", "Secure Clasp"],
+  "specifications": [
+    {"label": "Total Diamond Weight", "value": "5.0 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Number of Stones", "value": "150"},
+    {"label": "Length", "value": "16-18 inches"}
+  ]
+}
+
+10. {
+  "name": "Gold Mangalsutra Chain",
+  "sku": "GM-010",
+  "price": 45000,
+  "originalPrice": 45000,
+  "discount": 0,
+  "category": "Necklaces",
+  "metal": "Gold",
+  "stone": "None",
+  "stockQuantity": 25,
+  "availability": "In Stock",
+  "sizes": "18,20,22",
+  "badge": "Best Seller",
+  "description": "Traditional 22K gold mangalsutra chain with black beads. Sacred symbol of marriage.",
+  "features": ["BIS Hallmarked", "22K Gold", "Traditional Design", "Lifetime Exchange"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "22K"},
+    {"label": "Weight", "value": "8.5g"},
+    {"label": "Chain Type", "value": "Double String"},
+    {"label": "Bead Material", "value": "Gold & Black"}
+  ]
+}
+
+11. {
+  "name": "Silver Layered Necklace",
+  "sku": "SN-011",
+  "price": 12500,
+  "originalPrice": 15000,
+  "discount": 17,
+  "category": "Necklaces",
+  "metal": "Silver",
+  "stone": "None",
+  "stockQuantity": 40,
+  "availability": "In Stock",
+  "sizes": "14,16,18",
+  "badge": "Trending",
+  "description": "Modern layered silver necklace set. Three delicate chains for a chic look.",
+  "features": ["925 Sterling Silver", "3-Layer Design", "Adjustable Length", "Anti-Tarnish"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Total Weight", "value": "12g"},
+    {"label": "Layers", "value": "3"},
+    {"label": "Shortest Chain", "value": "14 inches"}
+  ]
+}
+
+12. {
+  "name": "Ruby Pendant Necklace",
+  "sku": "RN-012",
+  "price": 78000,
+  "originalPrice": 89000,
+  "discount": 12,
+  "category": "Necklaces",
+  "metal": "Gold",
+  "stone": "Ruby",
+  "stockQuantity": 9,
+  "availability": "In Stock",
+  "sizes": "16,18",
+  "badge": "New Arrival",
+  "description": "Exquisite Burmese ruby pendant on 18K gold chain. Statement piece.",
+  "features": ["Natural Burmese Ruby", "18K Gold", "Certificate Included", "Pigeon Blood Color"],
+  "specifications": [
+    {"label": "Ruby Weight", "value": "2.5 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Origin", "value": "Myanmar"},
+    {"label": "Chain Length", "value": "16-18 inches"}
+  ]
+}
+
+13. {
+  "name": "Pearl String Necklace",
+  "sku": "PN-013",
+  "price": 35000,
+  "originalPrice": 42000,
+  "discount": 17,
+  "category": "Necklaces",
+  "metal": "Gold",
+  "stone": "Pearl",
+  "stockQuantity": 14,
+  "availability": "In Stock",
+  "sizes": "16,18,20",
+  "badge": "",
+  "description": "Classic single-string pearl necklace with gold clasp. Timeless elegance.",
+  "features": ["AAA Japanese Pearls", "18K Gold Clasp", "Hand-Knotted", "Silk Thread"],
+  "specifications": [
+    {"label": "Pearl Size", "value": "8-9mm"},
+    {"label": "Pearl Type", "value": "Akoya"},
+    {"label": "Number of Pearls", "value": "50"},
+    {"label": "Clasp", "value": "18K Gold"}
+  ]
+}
+
+14. {
+  "name": "Platinum Chain Necklace",
+  "sku": "PTN-014",
+  "price": 125000,
+  "originalPrice": 125000,
+  "discount": 0,
+  "category": "Necklaces",
+  "metal": "Platinum",
+  "stone": "None",
+  "stockQuantity": 6,
+  "availability": "In Stock",
+  "sizes": "18,20",
+  "badge": "Limited Edition",
+  "description": "Premium platinum chain necklace. Ultimate luxury and durability.",
+  "features": ["Platinum 950", "Heavy Weight", "Box Chain", "Lifetime Warranty"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "Platinum 950"},
+    {"label": "Weight", "value": "15g"},
+    {"label": "Chain Style", "value": "Box"},
+    {"label": "Width", "value": "3mm"}
+  ]
+}
+
+15. {
+  "name": "Bohemian Turquoise Necklace",
+  "sku": "TN-015",
+  "price": 6500,
+  "originalPrice": 8000,
+  "discount": 19,
+  "category": "Necklaces",
+  "metal": "Silver",
+  "stone": "Turquoise",
+  "stockQuantity": 50,
+  "availability": "In Stock",
+  "sizes": "16,18",
+  "badge": "Sale",
+  "description": "Vibrant turquoise stone necklace in oxidized silver. Bohemian style.",
+  "features": ["Natural Turquoise", "925 Silver", "Oxidized Finish", "Adjustable"],
+  "specifications": [
+    {"label": "Stone Size", "value": "15x20mm"},
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Origin", "value": "Arizona"},
+    {"label": "Weight", "value": "18g"}
+  ]
+}
+
+
+EARRINGS 
+16. {
+  "name": "Diamond Stud Earrings",
+  "sku": "DE-016",
+  "price": 125000,
+  "originalPrice": 140000,
+  "discount": 11,
+  "category": "Earrings",
+  "metal": "White Gold",
+  "stone": "Diamond",
+  "stockQuantity": 10,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "Best Seller",
+  "description": "Classic diamond stud earrings, 1 carat each. Perfect for any occasion.",
+  "features": ["IGI Certified", "18K White Gold", "Screw Back", "Lifetime Exchange"],
+  "specifications": [
+    {"label": "Total Diamond Weight", "value": "2.0 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Clarity", "value": "VS2"},
+    {"label": "Color", "value": "F"}
+  ]
+}
+
+17. {
+  "name": "Gold Jhumka Earrings",
+  "sku": "GJ-017",
+  "price": 28000,
+  "originalPrice": 28000,
+  "discount": 0,
+  "category": "Earrings",
+  "metal": "Gold",
+  "stone": "None",
+  "stockQuantity": 30,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "Traditional",
+  "description": "Traditional 22K gold jhumka earrings with intricate temple work.",
+  "features": ["BIS Hallmarked", "22K Gold", "Handcrafted", "Temple Jewellery"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "22K"},
+    {"label": "Weight", "value": "6.5g"},
+    {"label": "Height", "value": "3cm"},
+    {"label": "Style", "value": "Temple"}
+  ]
+}
+
+18. {
+  "name": "Silver Hoop Earrings",
+  "sku": "SH-018",
+  "price": 4500,
+  "originalPrice": 5500,
+  "discount": 18,
+  "category": "Earrings",
+  "metal": "Silver",
+  "stone": "None",
+  "stockQuantity": 65,
+  "availability": "In Stock",
+  "sizes": "Small,Medium,Large",
+  "badge": "Trending",
+  "description": "Minimalist silver hoop earrings. Versatile and lightweight.",
+  "features": ["925 Sterling Silver", "Hinged Clasp", "3 Sizes Available", "Hypoallergenic"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Diameter", "value": "20mm/30mm/40mm"},
+    {"label": "Weight", "value": "2.5g"},
+    {"label": "Thickness", "value": "2mm"}
+  ]
+}
+
+19. {
+  "name": "Emerald Drop Earrings",
+  "sku": "EE-019",
+  "price": 95000,
+  "originalPrice": 110000,
+  "discount": 14,
+  "category": "Earrings",
+  "metal": "Gold",
+  "stone": "Emerald",
+  "stockQuantity": 7,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "New Arrival",
+  "description": "Stunning emerald drop earrings in yellow gold. Royal elegance.",
+  "features": ["Natural Emerald", "18K Gold", "Certificate", "Premium Quality"],
+  "specifications": [
+    {"label": "Emerald Weight", "value": "3.0 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Length", "value": "4cm"},
+    {"label": "Origin", "value": "Zambia"}
+  ]
+}
+
+20. {
+  "name": "Rose Gold Dangle Earrings",
+  "sku": "RD-020",
+  "price": 42000,
+  "originalPrice": 50000,
+  "discount": 16,
+  "category": "Earrings",
+  "metal": "Rose Gold",
+  "stone": "Diamond",
+  "stockQuantity": 15,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "",
+  "description": "Delicate rose gold dangle earrings with small diamonds. Modern femininity.",
+  "features": ["18K Rose Gold", "Natural Diamonds", "Lightweight", "French Hook"],
+  "specifications": [
+    {"label": "Diamond Weight", "value": "0.25 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Length", "value": "3.5cm"},
+    {"label": "Weight", "value": "3.2g"}
+  ]
+}
+
+21. {
+  "name": "Pearl Cluster Earrings",
+  "sku": "PC-021",
+  "price": 15000,
+  "originalPrice": 18000,
+  "discount": 17,
+  "category": "Earrings",
+  "metal": "Silver",
+  "stone": "Pearl",
+  "stockQuantity": 28,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "",
+  "description": "Elegant pearl cluster earrings in sterling silver. Perfect for weddings.",
+  "features": ["925 Silver", "AAA Freshwater Pearls", "Post Back", "Gift Box Included"],
+  "specifications": [
+    {"label": "Pearl Size", "value": "5-7mm"},
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Pearls Per Earring", "value": "7"},
+    {"label": "Weight", "value": "4.5g"}
+  ]
+}
+
+22. {
+  "name": "Sapphire Halo Studs",
+  "sku": "SS-022",
+  "price": 85000,
+  "originalPrice": 95000,
+  "discount": 11,
+  "category": "Earrings",
+  "metal": "Platinum",
+  "stone": "Sapphire",
+  "stockQuantity": 8,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "Exclusive",
+  "description": "Blue sapphire studs with diamond halo in platinum. Breathtaking beauty.",
+  "features": ["Natural Sapphire", "Platinum 950", "Diamond Halo", "IGI Certified"],
+  "specifications": [
+    {"label": "Sapphire Weight", "value": "2.0 ct"},
+    {"label": "Diamond Weight", "value": "0.5 ct"},
+    {"label": "Metal Purity", "value": "Platinum 950"},
+    {"label": "Setting", "value": "Prong"}
+  ]
+}
+
+BRACELETS 
+
+23. {
+  "name": "Gold Bangle Set",
+  "sku": "GB-023",
+  "price": 95000,
+  "originalPrice": 95000,
+  "discount": 0,
+  "category": "Bracelets",
+  "metal": "Gold",
+  "stone": "None",
+  "stockQuantity": 12,
+  "availability": "In Stock",
+  "sizes": "2.4,2.6,2.8",
+  "badge": "Best Seller",
+  "description": "Traditional 22K gold bangle set of 2. Classic Indian jewellery.",
+  "features": ["BIS Hallmarked", "22K Gold", "Set of 2", "Lifetime Exchange"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "22K"},
+    {"label": "Total Weight", "value": "20g"},
+    {"label": "Width", "value": "8mm"},
+    {"label": "Quantity", "value": "2 Bangles"}
+  ]
+}
+
+24. {
+  "name": "Diamond Tennis Bracelet",
+  "sku": "DT-024",
+  "price": 185000,
+  "originalPrice": 210000,
+  "discount": 12,
+  "category": "Bracelets",
+  "metal": "White Gold",
+  "stone": "Diamond",
+  "stockQuantity": 5,
+  "availability": "In Stock",
+  "sizes": "7,7.5",
+  "badge": "Limited Edition",
+  "description": "Luxurious diamond tennis bracelet, 3 carats total weight.",
+  "features": ["IGI Certified", "18K White Gold", "100 Diamonds", "Safety Clasp"],
+  "specifications": [
+    {"label": "Total Diamond Weight", "value": "3.0 ct"},
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Number of Diamonds", "value": "100"},
+    {"label": "Length", "value": "7-7.5 inches"}
+  ]
+}
+
+25. {
+  "name": "Silver Charm Bracelet",
+  "sku": "SC-025",
+  "price": 8500,
+  "originalPrice": 10000,
+  "discount": 15,
+  "category": "Bracelets",
+  "metal": "Silver",
+  "stone": "None",
+  "stockQuantity": 55,
+  "availability": "In Stock",
+  "sizes": "7,7.5,8",
+  "badge": "Trending",
+  "description": "Customizable silver charm bracelet. Add your favorite charms!",
+  "features": ["925 Sterling Silver", "5 Charms Included", "Extendable", "Lobster Clasp"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Chain Length", "value": "7-8 inches"},
+    {"label": "Weight", "value": "15g"},
+    {"label": "Charms", "value": "5 Included"}
+  ]
+}
+
+26. {
+  "name": "Rose Gold Chain Bracelet",
+  "sku": "RC-026",
+  "price": 32000,
+  "originalPrice": 38000,
+  "discount": 16,
+  "category": "Bracelets",
+  "metal": "Rose Gold",
+  "stone": "None",
+  "stockQuantity": 20,
+  "availability": "In Stock",
+  "sizes": "7,7.5",
+  "badge": "",
+  "description": "Elegant rose gold chain bracelet. Minimalist and chic.",
+  "features": ["18K Rose Gold", "Adjustable Length", "Secure Clasp", "Hypoallergenic"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "18K"},
+    {"label": "Chain Style", "value": "Cable"},
+    {"label": "Weight", "value": "5g"},
+    {"label": "Width", "value": "2mm"}
+  ]
+}
+
+27. {
+  "name": "Leather Wrap Bracelet",
+  "sku": "LW-027",
+  "price": 2500,
+  "originalPrice": 2500,
+  "discount": 0,
+  "category": "Bracelets",
+  "metal": "Silver",
+  "stone": "None",
+  "stockQuantity": 100,
+  "availability": "In Stock",
+  "sizes": "Adjustable",
+  "badge": "",
+  "description": "Trendy leather wrap bracelet with silver accents. Boho-chic style.",
+  "features": ["Genuine Leather", "925 Silver Beads", "Multi-Wrap", "Unisex"],
+  "specifications": [
+    {"label": "Material", "value": "Leather & Silver"},
+    {"label": "Color", "value": "Brown"},
+    {"label": "Length", "value": "60cm (wraps 3x)"},
+    {"label": "Closure", "value": "Button"}
+  ]
+}
+
+
+PENDANTS 
+
+28. {
+  "name": "Gold Ganesh Pendant",
+  "sku": "GP-028",
+  "price": 18000,
+  "originalPrice": 18000,
+  "discount": 0,
+  "category": "Pendants",
+  "metal": "Gold",
+  "stone": "None",
+  "stockQuantity": 40,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "Traditional",
+  "description": "22K gold Lord Ganesh pendant. Auspicious and sacred.",
+  "features": ["BIS Hallmarked", "22K Gold", "Detailed Carving", "Religious Gift"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "22K"},
+    {"label": "Weight", "value": "3.5g"},
+    {"label": "Height", "value": "2.5cm"},
+    {"label": "Bail Size", "value": "5mm"}
+  ]
+}
+
+29. {
+  "name": "Diamond Solitaire Pendant",
+  "sku": "DP-029",
+  "price": 55000,
+  "originalPrice": 65000,
+  "discount": 15,
+  "category": "Pendants",
+  "metal": "Platinum",
+  "stone": "Diamond",
+  "stockQuantity": 11,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "Sale",
+  "description": "Brilliant diamond solitaire pendant in platinum. Timeless beauty.",
+  "features": ["IGI Certified Diamond", "Platinum 950", "Four-Prong Setting", "Chain Not Included"],
+  "specifications": [
+    {"label": "Diamond Weight", "value": "0.75 ct"},
+    {"label": "Metal Purity", "value": "Platinum 950"},
+    {"label": "Clarity", "value": "VVS1"},
+    {"label": "Color", "value": "D"}
+  ]
+}
+
+30. {
+  "name": "Evil Eye Protection Pendant",
+  "sku": "EP-030",
+  "price": 5500,
+  "originalPrice": 7000,
+  "discount": 21,
+  "category": "Pendants",
+  "metal": "Silver",
+  "stone": "Turquoise",
+  "stockQuantity": 75,
+  "availability": "In Stock",
+  "sizes": "",
+  "badge": "Trending",
+  "description": "Protective evil eye pendant in silver with turquoise stone.",
+  "features": ["925 Sterling Silver", "Natural Turquoise", "Spiritual Protection", "Unisex"],
+  "specifications": [
+    {"label": "Metal Purity", "value": "925 Silver"},
+    {"label": "Stone Size", "value": "12mm"},
+    {"label": "Total Weight", "value": "4g"},
+    {"label": "Style", "value": "Modern"}
+  ]
+}
