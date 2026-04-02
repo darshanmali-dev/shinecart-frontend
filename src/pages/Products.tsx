@@ -493,7 +493,7 @@ const Products = () => {
                     view === 'list' ? 'w-48 h-48' : 'aspect-square'
                   }`}>
                     <img 
-                      src={BASE_URL + product.image} 
+                      src={`${BASE_URL}${product.image}`} 
                       alt={product.name}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       onError={(e) => {
