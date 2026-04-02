@@ -13,8 +13,8 @@ class WebSocketService {
     }
 
     this.client = new Client({
-      webSocketFactory: () => new SockJS('http://localhost:8080/ws'),
-      
+      webSocketFactory: () => new SockJS(`${import.meta.env.VITE_API_URL}/ws`),
+
       onConnect: (frame) => {
         console.log('WebSocket Connected:', frame);
         this.connected = true;

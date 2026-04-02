@@ -21,7 +21,7 @@ const Wishlist = () => {
   const [loading, setLoading] = useState(true);
   const [addingToCartId, setAddingToCartId] = useState<number | null>(null);
   const { decrementWishlistCount, setWishlistCount, incrementCartCount } = useCartWishlist();
-  const BASE_URL = 'http://localhost:8080';
+  const BASE_URL = import.meta.env.VITE_API_URL;
 
   // Fetch wishlist on mount
   useEffect(() => {

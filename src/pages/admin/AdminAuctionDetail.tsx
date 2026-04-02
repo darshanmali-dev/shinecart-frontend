@@ -61,6 +61,8 @@ export default function AdminAuctionDetail() {
     endTime: ''
   });
 
+  const BASE_URL = import.meta.env.VITE_API_URL;
+
   useEffect(() => {
     loadAuction();
     loadBids();
@@ -392,7 +394,7 @@ export default function AdminAuctionDetail() {
           </CardHeader>
           <CardContent className="p-4 sm:p-6 pt-0">
             <img
-              src={"http://localhost:8080"+(auction.product.images?.[0] || '/placeholder.jpg')}
+              src={`${BASE_URL}${auction.product.images?.[0] || '/placeholder.jpg'}`}
               alt={auction.product?.name}
               className="w-full h-40 sm:h-48 object-cover rounded-lg mb-3 sm:mb-4"
             />

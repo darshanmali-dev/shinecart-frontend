@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = import.meta.env.VITE_API_URL;;
 
 // ==================== Types ====================
 

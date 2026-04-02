@@ -74,6 +74,7 @@ export default function AdminAuctions() {
   const [isEditDialogOpen, setIsEditDialogOpen] = useState(false);
   const [selectedAuction, setSelectedAuction] = useState<Auction | null>(null);
   const [saving, setSaving] = useState(false);
+  const BASE_URL = import.meta.env.VITE_API_URL;
   
   // Create Form Data
   const [formData, setFormData] = useState({
@@ -412,7 +413,7 @@ export default function AdminAuctions() {
                     <TableCell className="font-medium">
                       <div className="flex items-center gap-3">
                         <img
-                          src={"http://localhost:8080"+(auction.product.images?.[0] || '/placeholder.jpg')}
+                          src={`${BASE_URL}${auction.product.images?.[0] || '/placeholder.jpg'}`}
                           alt={auction.product.name}
                           className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded"
                         />

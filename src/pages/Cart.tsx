@@ -29,7 +29,7 @@ const Cart = () => {
   const [promoCode, setPromoCode] = useState('');
   const [updatingItemId, setUpdatingItemId] = useState<number | null>(null);
   const { decrementCartCount, setCartCount, incrementWishlistCount } = useCartWishlist();
-  const BASE_URL = 'http://localhost:8080';
+  const BASE_URL = import.meta.env.VITE_API_URL;
 
   // Fetch cart items on mount
   useEffect(() => {

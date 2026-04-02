@@ -33,6 +33,8 @@ const Bidding = () => {
     seconds: 45
   });
 
+  const BASE_URL = import.meta.env.VITE_API_URL;
+
   // Mock countdown timer
   useEffect(() => {
     const timer = setInterval(() => {
@@ -141,7 +143,7 @@ const Bidding = () => {
     <Card className="card-luxury group">
       <div className="aspect-[4/3] overflow-hidden relative">
         <img 
-          src={"http://localhost:8080"+auction.image} 
+          src={`${BASE_URL}${auction.image}`} 
           alt={auction.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
@@ -434,7 +436,7 @@ const Bidding = () => {
                   <CardContent className="p-6">
                     <div className="flex space-x-4">
                       <img 
-                        src={"http://localhost:8080"+result.image} 
+                        src={`${BASE_URL}${result.image}`} 
                         alt={result.title}
                         className="w-24 h-24 object-cover rounded-lg"
                       />

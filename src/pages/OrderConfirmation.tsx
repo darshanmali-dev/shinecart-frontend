@@ -79,7 +79,7 @@ const OrderConfirmation = () => {
               <div className="space-y-3">
                 {order.items.map((item) => (
                   <div key={item.id} className="flex items-center space-x-4">
-                    <img src={"http://localhost:8080"+item.image} alt={item.name} className="w-16 h-16 object-cover rounded" />
+                    <img src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.name} className="w-16 h-16 object-cover rounded" />
                     <div className="flex-1">
                       <p className="font-medium">{item.name}</p>
                       <p className="text-sm text-muted-foreground">Quantity: {item.quantity}</p>

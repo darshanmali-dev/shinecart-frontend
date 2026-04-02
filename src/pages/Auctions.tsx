@@ -8,6 +8,7 @@ export default function Auctions() {
   const [auctions, setAuctions] = useState<Auction[]>([]);
   const [filter, setFilter] = useState<'all' | 'active' | 'upcoming' | 'ended'>('active');
   const [loading, setLoading] = useState(true);
+  const BASE_URL = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     loadAuctions();
@@ -139,7 +140,7 @@ export default function Auctions() {
                 {/* Image */}
                 <div className="relative">
                   <img
-                    src={"http://localhost:8080"+auction.product.images?.[0] || '/placeholder.jpg'}
+                    src={`${BASE_URL}${auction.product.images?.[0] || '/placeholder.jpg'}`}
                     alt={auction.product.name}
                     className="w-full h-64 object-cover"
                   />

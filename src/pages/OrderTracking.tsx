@@ -239,7 +239,7 @@ const OrderTracking = () => {
                 {orderData.items.map((item) => (
                   <div key={item.id} className="flex items-center space-x-4 p-4 border rounded-lg">
                     <img 
-                      src={"http://localhost:8080"+item.image}
+                      src={`${import.meta.env.BASE_URL}${item.image}`}
                       alt={item.name}
                       className="w-16 h-16 object-cover rounded-lg"
                     />

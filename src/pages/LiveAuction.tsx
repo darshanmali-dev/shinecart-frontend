@@ -217,7 +217,7 @@ export default function LiveAuction() {
             {/* Product Image */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src={"http://localhost:8080"+auction.product.images?.[0] || '/placeholder.jpg'} 
+                src={`${import.meta.env.BASE_URL}${auction.product.images?.[0] || '/placeholder.jpg'}`} 
                 alt={auction.product.name}
                 className="w-full h-96 object-cover"
               />
