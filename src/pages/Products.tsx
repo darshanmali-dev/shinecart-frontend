@@ -498,6 +498,7 @@ const Products = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       onError={(e) => {
                         e.currentTarget.src = '/placeholder.svg';
+                        console.log(`${BASE_URL}${product.image}`);
                       }}
                     />
                     {product.badge && (
